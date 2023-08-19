@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+
+<body>
+    <div class="bar">
+        <p class="head">Prosanal Blogging App</p>
+        <!-- <i class="bi bi-chat-left-text chat-icon"></i> -->
+        </a>
+
+
+        <a href="login.html"><button id="btn-log"> logout</button></a>
+        <a href="dashboad.html"><button id="btn-log"> Dashboad</button></a>
+    </div>
+    <h1>Profile</h1>
+    </div>
+    <div class="user-picture">
+        <img id="user-profile" src="france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg" alt="">
+        <label class="camera-icon" for="file-input">
+            <i class="bi bi-camera-fill"></i>
+        </label>
+        <input id="file-input" style="display: none;" type="file">
+    </div>
+    <input id="file-input" style="display: none;" type="file">
+    </div>
+    <div class="contener">
+        <div class="mb-3">
+            <label for="last-name" class="form-label"> Name:</label>
+            <input type="text" class="form-control" id="last-name" name="last-name" minlength="1" maxlength="20"
+                required>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Old Password:</label>
+            <input type="password" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">New password Password:</label>
+            <input type="password" class="form-control" id="email" name="email" required>
+        </div>
+        <button class="btn btn-primary" id="login">Update profile</button>
+    </div>
+    </div>
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>

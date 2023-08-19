@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <div class="bar">
+    <p class="head">Prosanal Blogging App</p>
+    
+   <a href="login.html"><button id="btn-log" > login</button></a>
+    </div>
+     <h1>Signup</h1>
+     <div class="container">
+        <form id="signup-form">
+            <div class="mb-3">
+                <label for="first-name" class="form-label">First Name:</label>
+                <input type="text" class="form-control" id="first-name" name="first-name" minlength="3" maxlength="20" required width="240px">
+            </div>
+            <div class="mb-3">
+                <label for="last-name" class="form-label">Last Name:</label>
+                <input type="text" class="form-control" id="last-name" name="last-name" minlength="1" maxlength="20" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Password:</label>
+                <input type="password" class="form-control" id="password" name="password" >
+            </div>
+            <div class="mb-3">
+                <label for="repeat-password" class="form-label">Repeat Password:</label>
+                <input type="password" class="form-control" id="repeat-password" name="repeat-password" required>
+            </div>
+            <button type="submit" class="btn btn-primary" id="sub">Sign Up</button>
+        </form>
+    </div>
+    <script type="module" src="app.js"></script>
+</body>
+</html>

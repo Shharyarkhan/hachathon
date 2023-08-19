@@ -1,0 +1,125 @@
+h1{
+    text-align:left;
+    margin-left: 200px;
+    margin-top: 199px;
+    
+    /* height: 200px; */
+    padding-top: 40px;
+}
+p{
+    height: 40px;
+    background-color: #7749f8;
+    font-weight: bold;
+    font-size: large;
+    width: 100%;
+    padding-left: 190px;
+    color: #ffffff;
+    padding-top: 8px;
+}
+.bar{
+    display: flex;
+}
+#btn-log{
+    
+    border:none;
+    padding-right: 100px;
+     background-color: #7749f8;
+     color:#ffffff; 
+     height: 40px;
+    /* width: 50%; */
+} 
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 73vh;
+}
+
+.container form {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.container form button {
+    display: block;
+    margin: 0 auto;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+
+
+.mb-4 {
+   
+    border: 2px solid red;
+}
+
+.mt-5 {
+    margin-top:-17rem!important;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.user-picture>img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.user-picture {
+    width: 100px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.camera-icon {
+    background-color: #fff;
+    width: 25px;
+    height: 25px;
+    border-radius: 12.5px;
+    position: absolute;
+    bottom: 10px;
+    right: -5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+}
+.contener{
+    align-items: center;
+    width: 400px;
+   
+    margin: 0 auto;
+}
+.main1{
+    width: 900px;
+    margin: 0 auto;
+    border: 3px solid black;
+    padding: 100px;
+    height: 300px;
+    padding-bottom: 100px;
+}
